@@ -1,177 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PataUpdate">
-    <meta name="author" content="Esther Oyoo">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-     rel="stylesheet" 
-     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-     crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PataUpdate" />
+    <meta name="author" content="Esther Oyoo" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>PataUpdate</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!---Navigation BAR-->
     <div class="navbar navbar-expand-lg navbar-light bg-light px-4">
-        <div class="container-fluid">
-          <div class="navbar-brand">  <img src="./images/message icon.png" alt="" class="brand-img">
-            PataUpdate</div>
-          <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </div>
-    
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="ms-auto d-flex gap-3">
-              <a class="nav-link text-black" href="#">How it works?</a>
-              <a class="nav-link text-black" href="#">Features</a>
-              <a class="nav-link text-black" href="#">FAQ</a>
-              <a class="nav-link text-black" href="#">Contact Us</a>
-            </div>
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <img src="./images/logo.png" alt="" class="brand-img" />
+          PataUpdate
+        </div>
+        <div
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="ms-auto d-flex gap-3">
+            <a class="nav-link text-black" href="#">How it works?</a>
+            <a class="nav-link text-black" href="#">Features</a>
+            <a class="nav-link text-black" href="#">FAQ</a>
+            <a class="nav-link text-black" href="#">Contact Us</a>
           </div>
         </div>
-      </div> 
-
-    <!-- Hero Section -->
-    <section id="hero" class="py-5 main text-white">
-    <div class="container">
-      <div class="row align-items-center">
-      
-      <!-- Hero Text Content -->
-      <div class="col-md-6 mb-4 mb-md-0">
-        <h1 class="display-4 fw-bold">Welcome to PataUpdate</h1>
-        <h5 class="mt-3 mb-4">Connect with your constituents – Effortlessly</h5>
-        <p class="lead mb-4">
-          We help political and aspiring leaders stay in touch with their audience by sharing weekly schedules and updates 
-          via WhatsApp. Simple, direct, and effective.
-        </p>
-        <a href="https://wa.me/254789397641?text=Hi%2C%20I%E2%80%99d%20like%20to%20get%20weekly%20updates%20on%20my%20Member%20of%20Parliament%E2%80%99s%20schedule" 
-        target="_blank" rel="noopener" class="btn btn-primary btn-md">GET STARTED NOW</a>
-      </div>
-
-      <!-- Hero Image -->
-      <div class="col-md-6 text-center hero-image">
-        <img src="./images/PataUpdate.png" alt="Hero Image" class="img-fluid">
-      </div>
-
       </div>
     </div>
-  </section>
 
+    <!-- Hero Section -->
+    <section id="hero" class="py-5 hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h1 class="display-4 fw-bold">PataUpdate</h1>
+            <h5 class="mt-3 mb-4">
+              Connect with your constituents – Effortlessly
+            </h5>
+            <p class="lead mb-4">
+              We help political leaders stay connected with their audience by
+              sharing weekly schedules and updates via WhatsApp—simple, direct,
+              and effective.
+            </p>
+            <button to="/login" class="btn btn-primary btn-md">
+              GET STARTED NOW
+            </button>
+          </div>
+
+          <div class="col-md-6 text-center hero-image">
+            <img src="/images/hero.png" alt="Hero Image" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!---Step by step of how it works-->
     <section id="how it works">
-    <div class="main">
-      <h3 class="heading">How it works</h3>
-      <div class="main-container ">
-        <ul>
-          <li class="mt-4 mb-4">
-            <div class="d-flex align-items-start">
-              <div class="iconbox me-3">
-                <i class="ri-message-3-fill fs-1 text-primary"></i>
-              </div>
-              <div>
-                <h3 class="title mb-1">Send Weekly Updates</h3>
-                <p class="mb-1">Share a short weekly schedule via WhatsApp to your constituents. Let them know what you are up to.</p>
-                <a href="#">Read More &gt;</a>
-                <div class="mt-2">
-                  <span class="timeline-circle"></span>
-                  <span class="step">Step 1</span>
+      <div class="main">
+        <h3 class="heading">How it works</h3>
+        <div class="main-container">
+          <ul>
+            <li class="mt-4 mb-4">
+              <div class="d-flex align-items-start">
+                <div class="iconbox me-3">
+                  <i class="ri-message-3-fill fs-1 text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="title mb-1">Send Weekly Updates</h3>
+                  <p class="mb-1">
+                    Share a short weekly schedule via WhatsApp to your
+                    constituents. Let them know what you are up to.
+                  </p>
+                  <a href="#">Read More &gt;</a>
+                  <div class="mt-2">
+                    <span class="timeline-circle"></span>
+                    <span class="step">Step 1</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          
-          <li class="mt-4 mb-4">
-            <div class="d-flex align-items-start">
-              <div class="iconbox me-3">
-                <i class="ri-smartphone-line fs-1 text-primary"></i>
-              </div>
-              <div>
-                <h3 class="title mb-1">Constituents Receive Messages</h3>
-                <p class="mb-1">Citizens get timely updates delivered straight to their phones — no extra apps or effort needed.</p>
-                <a href="#">Read More &gt;</a>
-                <div class="mt-2">
-                  <span class="timeline-circle"></span>
-                  <span class="step">Step 2</span>
-                </div>
-              </div>
-          
-            </div>
-          </li>
+            </li>
 
-          <li class="mt-4">
-            <div class="d-flex align-items-start">
-              <div class="iconbox me-3">
-                <i class="ri-user-shared-line fs-1 text-primary"></i>
-              </div>
-              <div>
-                <h3 class="title mb-1">Stay Connected and Engaged</h3>
-                <p class="mb-1">Strengthen trust by keeping people informed and actively involved in leadership updates.</p>
-                <a href="#">Read More &gt;</a>
-                <div class="mt-2">
-                  <span class="timeline-circle"></span>
-                  <span class="step">Step 3</span>
+            <li class="mt-4 mb-4">
+              <div class="d-flex align-items-start">
+                <div class="iconbox me-3">
+                  <i class="ri-smartphone-line fs-1 text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="title mb-1">Constituents Receive Messages</h3>
+                  <p class="mb-1">
+                    Citizens get timely updates delivered straight to their
+                    phones — no extra apps or effort needed.
+                  </p>
+                  <a href="#">Read More &gt;</a>
+                  <div class="mt-2">
+                    <span class="timeline-circle"></span>
+                    <span class="step">Step 2</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+
+            <li class="mt-4">
+              <div class="d-flex align-items-start">
+                <div class="iconbox me-3">
+                  <i class="ri-user-shared-line fs-1 text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="title mb-1">Stay Connected and Engaged</h3>
+                  <p class="mb-1">
+                    Strengthen trust by keeping people informed and actively
+                    involved in leadership updates.
+                  </p>
+                  <a href="#">Read More &gt;</a>
+                  <div class="mt-2">
+                    <span class="timeline-circle"></span>
+                    <span class="step">Step 3</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </section>
 
     <!--Waitlist-->
-    <section id="get-started">
-      <div class="waitlist-container main">
-        <h3 class="heading">Get Started Now</h3>
-        <h5>Register now to see what your leader is up to!</h5>
-        <div class="container waitlist-container1 mb-2">
-          <form action="Submit">
-            
-            <div class="form-group mb-3">
-              <label for="First_Name">First Name*</label>
-              <input type="text" class="form-control" name="First_Name" placeholder="Enter First Name">
-            </div>
-            
-            <div class="form-group mb-3">
-              <label for="Last_Name">Last Name*</label>
-              <input type="text" class="form-control" name="Last_Name" placeholder="Enter Last Name">
-            </div>
-            
-            <div class="form-group mb-3">
-              <label for="Email">Email*</label>
-              <input type="email" class="form-control" name="Email" placeholder="Enter Email Address">
-            </div>
-            
-            <div class="form-group mb-3">
-              <label for="Phone">Phone*</label>
-              <input type="number" class="form-control" name="Phone" placeholder="+254*********">
-            </div>
-            
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary form-control">SUBMIT</button>
-            </div>
-            
-          </form>
-        </div>
-      </div>
-    </section>
 
     <!-- Footer -->
-     <footer>
-        <div class="main">
-          <p class="my-text">Certified Meta's Official Tech Provider</p>
-          <p class="my-text mb-1">Copyright 2025 © PataUpdate. All rights reserved.</p>
-        </div>
-      </footer>
-</body>
-
+    <footer>
+      <div class="main">
+        <p class="my-text">Certified Meta's Official Tech Provider</p>
+        <p class="my-text mb-1">
+          Copyright 2025 © PataUpdate. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
